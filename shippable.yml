@@ -16,6 +16,6 @@ script:
   - lein test
 
 notifications:
-  email:
-    - buildsampletest@gmail.com
-    - vidya@shippable.com
+   email:
+     - buildsampletest@gmail.com
+     - vidya@shippable.com
