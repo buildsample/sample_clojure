@@ -15,6 +15,7 @@ script:
   - cd sample
   - lein test
 
+
 notifications:
    email:
       - buildsampletest@gmail.com
