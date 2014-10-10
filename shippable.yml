@@ -19,7 +19,7 @@ script:
 notifications:
    email:
       - buildsampletest@gmail.com
-      - vidya@shippable.com
+     # - vidya@shippable.com
      
      
 cache: true
