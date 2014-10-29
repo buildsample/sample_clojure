@@ -10,6 +10,8 @@ before_script:
   - mkdir -p shippable/codecoverage
 
 
+
+
 # Running the test with Leiningen
 script:
   - cd sample
