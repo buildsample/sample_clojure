@@ -4,7 +4,7 @@ language: clojure
 lein:
   - lein
   
-  
+build_image: shippable/minv2:beta  
   
 # Create directories for test and coverage reports
 before_script:
