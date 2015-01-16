@@ -18,7 +18,7 @@ before_script:
 
 # Running the test with Leiningen
 script:
-  - echo $text"
+  - echo $text
   - cd sample
   - lein test
 after_script:
