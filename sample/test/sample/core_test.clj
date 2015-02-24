@@ -4,4 +4,4 @@
 
 (deftest a-test
   (testing "Simple addition"
-    (is (= 15 (-main 5)))))
+    (is (= 14 (-main 5)))))
