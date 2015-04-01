@@ -29,4 +29,7 @@ notifications:
       - buildsampletest@gmail.com
       - vidya@shippable.com
      
-     
+after_success:
+  - echo "success"
+after_failure:
+  - echo "failed"  
