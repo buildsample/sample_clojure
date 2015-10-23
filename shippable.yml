@@ -19,6 +19,8 @@ script:
   - cd sample
   - lein test
 
+
+
 after_script:
   - cp README.md ./shippable
 
