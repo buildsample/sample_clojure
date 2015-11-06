@@ -12,6 +12,7 @@ env:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
+  - shippable_retry 'if [ $i -eq 3 ]; then echo "done"; else foobar$i; fi'
 
 # Running the test with Leiningen
 script:
