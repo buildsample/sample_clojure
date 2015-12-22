@@ -6,7 +6,7 @@ lein:
 env:
  - secure: DsvPZFkfXeiCY6BInUwXdeYWzHEedz85zXmW8c2JxHA8OZhs7JwmJjglEZhZU5z6E1N4v1U4NG2+10c73P+6R7NrswhkOhMS8XAqsOnvbgjVTPQLvEapt3lsBfkIFqEuZJuTzoCtaxHsE9LNlwlApmW92uL3GX3FZiSFJTeZKGKuAFnUQFlX82vfsz1tWBuaCRUFCMZpD/FziUgH6IbPViTuqYETgb8I/uJOJiWLpRioxXY4B5KRsAkH9LupNQ4pGHZsv3NLrh6k+6kZeRqt8tdb07pw10VYL+rKI8gz0ZIn6vgG5du1i7Zq6edZzq1OuUF9Zyloap41nNeIZys4oQ==
  
-build_image: drydock/u12clo:tip
+build_image: drydock/u14clo:tip
   
 # Create directories for test and coverage reports
 before_script:
